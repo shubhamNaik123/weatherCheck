@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Forecast" syncable="YES">
+        <attribute name="avgHumidity" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="condition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="temp_c" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp_f" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weekday" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Location" syncable="YES">
+        <attribute name="condition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="locationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp_c" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp_f" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Forecast" positionX="160" positionY="-12" width="128" height="165"/>
+        <element name="Location" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
 </model>

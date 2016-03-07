@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nex-EO-QHb">
+                                <rect key="frame" x="195" y="8" width="83" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="VjS-EP-Ytf"/>
+                                    <constraint firstAttribute="height" constant="46" id="zyI-5N-G3q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clear" translatesAutoresizingMaskIntoConstraints="NO" id="JTN-R9-RNq">
+                                <rect key="frame" x="2" y="8" width="49" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="45D-NM-0eK"/>
+                                    <constraint firstAttribute="height" constant="37" id="9Ot-Xm-33s"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ShangHai" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WzL-H7-UWB">
+                                <rect key="frame" x="22" y="59" width="256" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="1d7-TL-S7I"/>
+                                    <constraint firstAttribute="height" constant="22" id="zVW-YY-AgH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Partly cloudy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wV3-Jy-7Mj">
+                                <rect key="frame" x="52" y="8" width="147" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1eA-GW-bqY"/>
+                                    <constraint firstAttribute="width" constant="147" id="YJi-3y-RDK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humidity: 58%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUP-HI-wV9">
+                                <rect key="frame" x="52" y="26" width="147" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FhC-jt-2bN"/>
+                                    <constraint firstAttribute="width" constant="147" id="TJJ-pX-Y2v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="EHC-9O-2gK">
+                                <rect key="frame" x="2" y="57" width="22" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="k9H-xj-lY5"/>
+                                    <constraint firstAttribute="width" constant="22" id="rpN-yI-lSx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="mUP-HI-wV9" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="26" id="5Ru-Us-2dw"/>
+                            <constraint firstItem="EHC-9O-2gK" firstAttribute="top" secondItem="JTN-R9-RNq" secondAttribute="bottom" constant="12" id="Iah-g0-Iw5"/>
+                            <constraint firstItem="wV3-Jy-7Mj" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="Kp5-43-7Ga"/>
+                            <constraint firstItem="wV3-Jy-7Mj" firstAttribute="leading" secondItem="JTN-R9-RNq" secondAttribute="trailing" constant="1" id="MEi-Cv-cPS"/>
+                            <constraint firstItem="nex-EO-QHb" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="ShE-UP-C0E"/>
+                            <constraint firstItem="WzL-H7-UWB" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="22" id="SyA-fD-dke"/>
+                            <constraint firstItem="JTN-R9-RNq" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="2" id="csZ-Cr-OrS"/>
+                            <constraint firstItem="nex-EO-QHb" firstAttribute="leading" secondItem="JTN-R9-RNq" secondAttribute="trailing" constant="144" id="gaj-7P-5IU"/>
+                            <constraint firstItem="mUP-HI-wV9" firstAttribute="leading" secondItem="JTN-R9-RNq" secondAttribute="trailing" constant="1" id="hx6-D2-zrz"/>
+                            <constraint firstItem="JTN-R9-RNq" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="on9-nn-0Bl"/>
+                            <constraint firstItem="WzL-H7-UWB" firstAttribute="top" secondItem="mUP-HI-wV9" secondAttribute="bottom" constant="12" id="qxs-GC-QGr"/>
+                            <constraint firstItem="EHC-9O-2gK" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="2" id="yWF-UT-8QC"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="86"/>
+                    <connections>
+                        <outlet property="lblCondition" destination="wV3-Jy-7Mj" id="rej-Sc-aV3"/>
+                        <outlet property="lblHumidity" destination="mUP-HI-wV9" id="8sI-SP-env"/>
+                        <outlet property="lblPlace" destination="WzL-H7-UWB" id="xP8-RC-Sk0"/>
+                        <outlet property="lbltemp" destination="nex-EO-QHb" id="Xzl-VM-mLu"/>
+                        <outlet property="weatherImg" destination="JTN-R9-RNq" id="w7x-T9-6dY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="516" y="284"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clear" width="50" height="50"/>
+        <image name="location" width="50" height="50"/>
+    </resources>
+</document>

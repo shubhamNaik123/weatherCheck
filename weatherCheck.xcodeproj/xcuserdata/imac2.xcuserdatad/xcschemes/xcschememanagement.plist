@@ -4,15 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Weather widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>WeatherDataKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>weatherCheck.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>weatherWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>490015381C5F366A0077E1A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4980F2C11C7F07EA00F031CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49AFE29C1C86A997007849A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49AFE2B11C86AAAB007849A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
